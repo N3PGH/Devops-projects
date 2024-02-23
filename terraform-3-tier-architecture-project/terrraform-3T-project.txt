@@ -34,6 +34,8 @@ create IAM user with admin previlages
 
 login as ec2-user
 ----------------------
+
+#sudo -i
 #yum update
 #vim terraform.sh
 	>copy terraform.sh content
@@ -46,7 +48,9 @@ login as ec2-user
 	>copy main.tf content
 #vim jenkins.sh
 	>copy jenkins.sh content
+#sh jenkins.sh
 ----------------------
+cat /var/lib/jenkins/secrets/initialAdminPassword
 
 open jenkins port in web browser [localip:8080]
 
