@@ -39,13 +39,12 @@ login as ec2-user
 #yum update
 #vim terraform.sh
 	>copy terraform.sh content
+#sh terraform.sh
 #aws configure 
 			username
 			paswword
 			us-east-1
 			table 
-#vim main.tf
-	>copy main.tf content
 #vim jenkins.sh
 	>copy jenkins.sh content
 #sh jenkins.sh
